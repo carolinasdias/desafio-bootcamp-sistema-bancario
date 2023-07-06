@@ -1,0 +1,17 @@
+Desenvolver um sistema bancário com a linguagem Python
+
+Operação de depósito: 
+  - deve ser possível depositar valores positivos para a minha conta bancária 
+  - A v1 do projeto trabalha apenas com 1 usuário, dessa forma não precisamos nos preocupar em identificar qual é o número da agência e conta bancária
+  - Todos os depósitos devem ser armazenados em uma variável e exibidos no extrato
+
+Operação de saque:
+  - O sistema deve permitir realizar 3 saques diários com limite máximo de R$ 500,00 por saque
+  - Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacas por falta de saldo
+  - Todos os saques devem ser armazenados em uma variável e exibidos na operação de extrato
+
+Operação de extrato:
+  - Essa operação deve listar todos os depósitos e saues realizados na conta
+  - No fim a listagem deve exibit o saldo atual da conta
+  - O valores devem ser exibidos no formato R$ xxx.xx
+
